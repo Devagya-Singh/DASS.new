@@ -1,3 +1,5 @@
+"homepage": "https://devagya-singh.github.io/DASS.new"
+
 {
   "name": "package.json",
   "private": true,
@@ -8,6 +10,9 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
+    "predeploy": "npm run build",
+"deploy": "gh-pages -d build"
+
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.7.2",
