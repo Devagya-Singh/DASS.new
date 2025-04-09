@@ -1,7 +1,8 @@
-"homepage": "https://devagya-singh.github.io/DASS.new"
+
 {
   "name": "package.json",
   "private": true,
+  "homepage": "https://devagya-singh.github.io/DASS.new"
   "version": "0.0.0",
   "type": "module",
   "scripts": {
